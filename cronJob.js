@@ -1,7 +1,7 @@
 import cron from "node-cron";
 import Quiz from "./models/Quiz.js";
-import { ApiError } from "./Utils/ApiError.js";
-import { ApiResponse } from "./Utils/ApiResponse.js";
+import { ApiError } from "./utils/ApiErrors.js";
+import { ApiResponse } from "./utils/ApiResponses.js";
 
 // Function to update quiz statuses
 const updateQuizStatuses = async () => {

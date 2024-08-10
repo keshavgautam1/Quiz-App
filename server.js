@@ -3,8 +3,8 @@ import cors from "cors";
 import dotenv from "dotenv";
 import quizRoutes from "./routes/index.js";
 import "./cronJob.js";
-import { ApiError } from "./Utils/ApiError.js";
 import connectToDB from "./db.js";
+import { ApiError } from "./utils/ApiErrors.js";
 
 dotenv.config();
 

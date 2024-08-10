@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
 
-import { ApiError } from "./Utils/ApiError.js";
+import { ApiError } from "./utils/ApiErrors.js";
 import { asyncHandler } from "./Utils/asyncHandler.js";
-import { ApiResponse } from "./Utils/ApiResponse.js";
+import { ApiResponse } from "./utils/ApiResponses.js";
 
 const DB_NAME = process.env.DataBase_Name;
 
