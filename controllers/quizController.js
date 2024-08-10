@@ -2,7 +2,7 @@ import Quiz from "../models/Quiz.js";
 import moment from "moment";
 import { ApiError } from "../utils/ApiErrors.js";
 import { ApiResponse } from "../utils/ApiResponses.js";
-import { asyncHandler } from "../Utils/asyncHandler.js";
+import { asyncHandler } from "../utils/asyncHandlerCode.js";
 
 const updateQuizStatus = (quiz) => {
   const currentTime = moment();
